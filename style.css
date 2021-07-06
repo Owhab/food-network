@@ -5,12 +5,12 @@ body{
 }
 .navbar{
     display: flex;
-    position: fixed;
+    position: sticky;
     overflow: hidden;
     background-color: rgb(70, 62, 62);
-    top: 0;
     width: 100%;
-    padding-left: 500px;
+    text-align: right;
+    
 }
 .navbar a{
     display: block;
@@ -18,6 +18,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: right;
 }
 p{
     font-size: 16px;
