@@ -166,6 +166,11 @@ p{
     box-shadow: 10px 10px 50px rgb(212, 199, 199);
     border-radius: 40px;
 }
+.social h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 0;
+}
 .youtube{
     width: 30%;
     padding: 5%;
