@@ -3,7 +3,23 @@ body{
     font-family: 'Montserrat', sans-serif;
 
 }
-
+.navbar{
+    display: flex;
+    position: sticky;
+    overflow: hidden;
+    background-color: rgb(70, 62, 62);
+    width: 100%;
+    text-align: right;
+    
+}
+.navbar a{
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
 p{
     font-size: 16px;
     line-height: 1.8;
@@ -11,7 +27,7 @@ p{
 
 .home-section{
     display: flex;
-    
+    margin-top: 50px;
     
 
 }
